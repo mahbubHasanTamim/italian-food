@@ -1,0 +1,257 @@
+header{
+	background: url('../img/hero-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 840px;
+}
+
+nav{
+	margin-top: 20px;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#menu li{
+	list-style: none;
+	display: inline-block;
+}
+#menu li a{
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	font-weight: 400;
+}
+#menu input{
+	width: 110px;
+	background-color: #fff;
+	border: 0px;
+	border-radius: 30px;
+}
+
+.hero{
+	margin-top: 100px;
+}
+.logo img{
+	width: 100px;
+}
+.title img{
+	width: 550px;
+	margin: 15px 0px 0px -40px;
+}
+.hero-left-content h3{
+	margin-top: 70px;
+	margin-bottom: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.hero-left-content a{
+	padding: 7px 20px;
+	color: #000;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.hero-left-content a:hover{
+	background-color: #f2f2f2;
+}
+.hero-left-content p{
+    color: #fff;
+    width: 80%;
+    margin: 20px 0px;
+	font-style: italic;
+}
+.hero-right-content img{
+	width: 100%;
+	margin-top: 45px;
+    margin-left: 75px;
+}
+
+
+
+.featured-food{
+	margin: 60px 0px;
+}
+.featured-item{
+	margin-top: 80px;
+}
+.section-title{
+	width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.section-title img{
+	width: 600px;
+}
+.featured-single-item img{
+	width: 90%;
+}
+.f-item-btn{
+	text-align: center;
+	margin-top: 60px;
+}
+.f-item-btn a{
+	padding: 10px 40px;
+	color: #fff;
+	background-color: #000;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+
+
+.info{
+	background-color: #27292C;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.info .title{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .info-content{
+	margin: 30px 0px;
+}
+.info .info-content p{
+	color: #fff;
+	font-size: 16px;
+	padding: 0px 30px;
+}
+.info-btn{
+	text-align: center;
+    margin-top: 60px;
+}
+.info-btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 45px;
+    font-weight: 600;
+    border-radius: 18px;
+}
+
+/* OFFER DESIGN */
+.offer{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.offer .image img{
+  width: 100%;
+}
+.offer .offer-content h1{
+	margin-top: 90px;
+	font-size: 55px;
+}
+.offer .offer-content p{
+	font-size: 18px;
+	margin: 30px 0px;
+}
+.offer .offer-content a{
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/* PIZZA DESIGN START */
+.pizza{
+	background: url('/img/hero-bg.jpg');
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	height: 845px;
+	position: relative;
+}
+.pizza .overly-img img{
+	width: 100%;
+	position: absolute;
+	top: -150px;
+}
+.pizza .pizza-img img{
+	width: 70%;
+	float: right;
+}
+.pizza .title{
+	width: 60%;
+	margin: auto;
+}
+.pizza p{
+	color: #fff;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+}
+.pizza .divider{
+	width: 90px;
+	height: 5px;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.pizza .title img{
+	width: 100%;
+	margin-top: 70px;
+}
+
+
+/* TESTIMONIAL DESIGN */	
+.testimonial{
+	margin-top: 120px;
+	text-align: center;
+}
+.review{
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+/* FORM DESIGN */
+.subscribe{
+	background-color: #27292c;
+	position: relative;
+}
+.subscribe .sub-content{
+	width: 70%;
+	margin: 150px auto 200px auto;
+}
+.subscribe .sub-content h2{
+	color: #fff;
+	text-align: center;
+}
+.subscribe .sub-content p{
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 30px auto;
+}
+.sub-content .form{
+	width: 80%;
+	margin: auto;
+	position: relative !important;
+}
+.sub-content .form .bttn{
+	position: absolute;
+	top: -1px;
+	right: -1px;
+}
+.sub-content .form .e-input{
+	border-radius: 30px;
+	border: none;
+}
+.sub-content .form .btn{
+	border-radius: 30px;
+}
+.subscribe .s-overly img{
+	width: 100%;}
+.subscribe .s-overly{
+	position: absolute;
+	top: -65px;
+}
